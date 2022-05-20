@@ -10,6 +10,7 @@ The process of obtaining data was pretty simple. The fandom wiki for Regular Sho
 - go to those links and get all paragraph elements
 - if that element belongs to the script (if it contains parentheses or a colon and is not another link) add it to a list of lines
 - write this list of lines along with newline characters to a txt file in the data folder.
+
 This was also quite easy to implement and fandom's website cooperated nicely which is always great when you're web scraping. However, 21 episodes were unable to be obtained to character encoding problems that I decided weren't worth delving into. In total, there are 209 text files worth of data to construct models with.
 
 ## Preprocessing
